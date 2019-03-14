@@ -13,7 +13,7 @@ function addToCart(item) {
  var itemPrice = math.floor(math.random() * 101);
  var itemName= {};
  
- 
+ itemName[item] = price;
 }
 
 function viewCart() {
