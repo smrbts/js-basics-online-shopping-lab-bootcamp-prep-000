@@ -15,7 +15,7 @@ function addToCart(item) {
  
  itemName[item] = price;
  cart.push(itemName);
- 
+ return cart;
 }
 
 function viewCart() {
